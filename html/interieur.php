@@ -15,9 +15,9 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area target="" alt="" title="" href="interieur.php" coords="672,487,417,568" shape="rect">
+                                <area target="" alt="" title="" href="../index.php" coords="672,487,417,568" shape="rect">
                             </map>
-                            <img src="../img/gare.jpg" usemap="#image-map">
+                            <img src="../img/interieur.jpg" usemap="#image-map">
                         </div>
                     </div>
                 </div>
