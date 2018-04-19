@@ -9,13 +9,19 @@
          <script src="../js/script.js" charset="utf-8"></script>
     </head>
     <body>
-        <section class="hero is-dark is-fullheight has-text-centered">
-            <div class="hero-body">
-                <div class="container gare">
-                    <img src="../img/gare.jpg" alt="">
-                    <a href="#" class="test">zefgerg</a>
+        <div class="hero is-dark is-fullheight">
+            <div class="hero-body ">
+                <div class="container has-text-centered">
+                    <div class="columns">
+                        <div class="column">
+                            <map name="image-map">
+                                <area target="" alt="" title="" href="../index.php" coords="672,487,417,568" shape="rect">
+                            </map>
+                            <img src="../img/gare.jpg" usemap="#image-map">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </body>
 </html>
