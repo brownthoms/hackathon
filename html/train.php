@@ -15,7 +15,7 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area target="" alt="" title="" href="hallPolice.php" coords="152,377,392,410" shape="rect">
+                                <area target="" alt="" title="" href="hall.php" coords="152,377,392,410" shape="rect">
                             </map>
                             <img src="../img/interieur.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">

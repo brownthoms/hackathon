@@ -15,7 +15,7 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area target="" alt="" title="devant" href="" coords="613,335,531,451" shape="rect">
+                                <area target="" alt="" title="devant" href="train.php" coords="613,335,531,451" shape="rect">
                                 <area target="" alt="" title="haut" href="bureau.php" coords="764,229,873,254" shape="0">
                                 <area target="" alt="" title="droite" href="" coords="946,327,1023,418" shape="0">
                                 <area target="" alt="" title="bar" href="bar.php" coords="722,293,790,317" shape="0">
