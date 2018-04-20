@@ -2,16 +2,18 @@ $(document).ready(function(){
 
     // Extérieur gare.
     var sac = 0;
-    let inventaire = [];
 
     if ($(".sac").click(function(){
-        inventaire = [
-            "Hache",
-            "Carte à jouer"
-        ];
         sac = 1;
         console.log(sac); // Doit être égal à 1.
-        console.log(inventaire);
+
+        if(window.localStorage){
+            window.localStorage.setItem("objet1", "Hache");
+            window.localStorage.setItem("objet2", "Cartes à jouer");
+	        console.log(window.localStorage["objet1"]);
+            console.log(window.localStorage["objet2"]);
+
+        };
     }));
 
     if ($(".porte").click(function(){
