@@ -24,6 +24,9 @@
                                 <area target="" alt="" title="tabac" href="" coords="329,287,391,319" shape="0">
                             </map>
                             <img src="../img/test.jpg" usemap="#image-map" class="gare">
+                            <div class="has-text-centered">
+                                <p>Il faut manger et trouver un moyen de s'en aller !</p>
+                            </div>
                         </div>
                     </div>
                 </div>

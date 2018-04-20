@@ -23,7 +23,7 @@
                     </div>
                     <div class="has-text-centered">
                         <p>L'effet de la drogue se dissipe... <br>
-                        Vous reprenez connaissance et cherchez désespérément vos affaires pour rentrer chez vous...</p>
+                        Vous reprenez connaissance et cherchez désespérément vos affaires...</p>
                     </div>
                 </div>
             </div>

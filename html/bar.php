@@ -24,7 +24,8 @@
                         </div>
                     </div>
                     <div class="has-text-centered">
-                        <p>Il est impératif de reprendre des forces !</p>
+                        <p>Il est impératif de reprendre des forces ! <br>
+                        (Cliquez en bas de l'image pour revenir en arrière.)</p>
                     </div>
                 </div>
             </div>
