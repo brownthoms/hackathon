@@ -14,10 +14,16 @@
                 <div class="container has-text-centered">
                     <div class="columns">
                         <div class="column">
-                            <img src="../img/hall.jpg" usemap="#image-map">
                             <map name="image-map">
-                                <area target="" alt="" title="" href="" coords="1026,810,1228,1034" shape="rect">
+                                <area target="" alt="" title="" href="#" coords="613,335,531,451" shape="rect">
+                                <area target="" alt="" title="" href="#" coords="764,229,873,254" shape="0">
+                                <area target="" alt="" title="" href="#" coords="798,339,750,319,475,323,515,346" shape="0">
+                                <area target="" alt="" title="" href="#" coords="472,319,517,347" shape="0">
+                                <area target="" alt="" title="" href="#" coords="400,256,357,224" shape="0">
+                                <area target="" alt="" title="" href="#" coords="135,273,194,330,186,327" shape="0">
+                                <area target="" alt="" title="" href="#" coords="946,327,1023,418" shape="0">
                             </map>
+                            <img src="../img/test.jpg" usemap="#image-map" class="gare">
                         </div>
                     </div>
                 </div>
