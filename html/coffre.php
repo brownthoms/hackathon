@@ -10,17 +10,17 @@
     </head>
     <body>
         <div class="hero is-dark is-fullheight">
-            <div class="hero-body">
+            <div class="hero-body ">
                 <div class="container has-text-centered">
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area target="" alt="" title="" href="coffre.php" coords="381,20,457,131" shape="rect">
-                                <area target="" alt="" title="" href="codeFinal.php" coords="425,351,448,344" shape="0">
+                                <area target="" alt="" title="" href="hall.php" coords="143,356,438,401" shape="rect">
+                                <area target="" alt="" title="" href="" coords="385,78,439,132" shape="0">
                             </map>
-                            <img src="../img/bureau.jpg" usemap="#image-map">
+                            <img src="../img/bureauFinal.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
-                                <p>Ce n'est pas un simple bout de papier</p>
+                                <p>Félicitacions</p>
                             </div>
                         </div>
                     </div>
