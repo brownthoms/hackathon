@@ -1,6 +1,3 @@
 .title{
     font-size: 5em;
 }
-body {position :relative ;}
-canvas {position : absolute ; width : 80% ; height : auto ; left : 10%;}
-div {position : absolute; width : 100%; left : 0px; top : 400px; }

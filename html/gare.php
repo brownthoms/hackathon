@@ -9,6 +9,20 @@
          <script src="../js/script.js" charset="utf-8"></script>
     </head>
     <body>
-        <canvas id='canevas1' width ="250" height ="250"></canvas>
+        <div class="hero is-dark is-fullheight">
+            <div class="hero-body ">
+                <div class="container has-text-centered">
+                    <div class="columns">
+                        <div class="column">
+                            <map name="image-map">
+                                <area class="sac" target="" alt="" title="" href="gare.php" coords="712,579,695,566" shape="rect">
+                                <area target="" alt="" title="" href="interieur.php" coords="672,487,417,568" shape="rect">
+                            </map>
+                            <img src="../img/gareSac.jpg" usemap="#image-map" class="gare">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
