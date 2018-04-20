@@ -26,7 +26,8 @@
                             </map>
                             <img src="../img/police.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
-                                <p>Voila du poulet !</p>
+                                <p>Voila du poulet ! <br>
+                                Prêt ?! Courez !</p>
                             </div>
                         </div>
                     </div>

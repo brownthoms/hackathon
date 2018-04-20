@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="hero is-dark is-fullheight">
-            <div class="hero-body ">
+            <div class="hero-body">
                 <div class="container has-text-centered">
                     <div class="columns">
                         <div class="column">
@@ -18,7 +18,7 @@
                                 <area target="" alt="" title="" href="coffre.php" coords="381,20,457,131" shape="rect">
                                 <area target="" alt="" title="" href="codeFinal.php" coords="425,351,448,344" shape="0">
                             </map>
-                            <img src="../img/bureau.jpg" usemap="#image-map" class="gare">
+                            <img src="../img/bureau.jpg" usemap="#image-map">
                             <div class="has-text-centered">
                                 <p></p>
                             </div>
