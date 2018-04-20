@@ -9,7 +9,7 @@ $(document).ready(function(){
         if (sac === 1) {
             $(".porte").attr("href", "interieur.php");
         }else{
-            alert("Vous avez oublié vos affaires !");
+            alert("Il vous manque quelque chose...");
         }
     }));
 });
