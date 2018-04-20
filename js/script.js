@@ -37,9 +37,13 @@ $(document).ready(function(){
         if (barman === 1) {
             cafetiere = 1;
             alert("Vous avez consommé du café.");
-            if ((cafetiere === 1) && (kiwi === 1)){
-                alert("Vous voila un peu mieux !");
-            }
+            if(window.localStorage){
+                window.localStorage.setItem("consommation1", "Café");
+    	        console.log(window.localStorage["consommation1"]);
+                if ((cafetiere === 1) && (kiwi === 1)){
+                    alert("Vous voila un peu mieux !");
+                }
+            };
         }else{
             alert("Le barman vous regarde bizarrement.");
         }
@@ -50,9 +54,13 @@ $(document).ready(function(){
         if (barman === 1) {
             kiwi = 1;
             alert("Vous avez consommé des kiwis.")
-            if ((cafetiere === 1) && (kiwi === 1)){
-                alert("Vous voila un peu mieux !");
-            }
+            if(window.localStorage){
+                window.localStorage.setItem("consommation2", "Kiwi");
+                console.log(window.localStorage["consommation2"]);
+                if ((cafetiere === 1) && (kiwi === 1)){
+                    alert("Vous voila un peu mieux !");
+                }
+            };
         }else{
             alert("Le barman vous regarde bizarrement.");
         }
