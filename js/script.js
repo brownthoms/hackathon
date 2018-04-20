@@ -5,13 +5,9 @@ $(document).ready(function(){
     let inventaire = [];
 
     if ($(".sac").click(function(){
-        inventaire = [
-            "Hache",
-            "Carte à jouer"
-        ];
-        sac = 1;
-        console.log(sac); // Doit être égal à 1.
-        console.log(inventaire);
+        $.getJSON('../bdd/bdd.json', function(donnees) {
+                
+        };
     }));
 
     if ($(".porte").click(function(){
