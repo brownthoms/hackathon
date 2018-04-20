@@ -15,12 +15,15 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area class="cafetiere" target="" alt="" title="" href="#" coords="372,490,516,724" shape="rect">
-                                <area class="kiwi" alt="" title="" href="#" coords="1102,314,1157,337" shape="0">
-                                <area class="barman" alt="" title="" href="#" coords="890,419,976,509" shape="0">
-                                <area target="" alt="" title="" href="" coords="323,762,842,798" shape="0">
+                                <area target="" alt="" title="devant" href="" coords="613,335,531,451" shape="rect">
+                                <area target="" alt="" title="haut" href="" coords="764,229,873,254" shape="0">
+                                <area target="" alt="" title="droite" href="" coords="946,327,1023,418" shape="0">
+                                <area target="" alt="" title="bar" href="bar.php" coords="722,293,790,317" shape="0">
+                                <area target="" alt="" title="fond" href="" coords="132,271,201,349" shape="0">
+                                <area target="" alt="" title="haut gauche" href="" coords="356,221,396,256" shape="0">
+                                <area target="" alt="" title="tabac" href="" coords="329,287,391,319" shape="0">
                             </map>
-                            <img src="../img/interieur.jpg" usemap="#image-map" class="gare">
+                            <img src="../img/test.jpg" usemap="#image-map" class="gare">
                         </div>
                     </div>
                 </div>
