@@ -15,8 +15,8 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area class="sac" target="" alt="" title="" href="" coords="712,579,695,566" shape="rect">
-                                <area target="" alt="" title="" href="interieur.php" coords="672,487,417,568" shape="rect">
+                                <area class="sac" target="" alt="" title="" href="#" coords="712,579,695,566" shape="rect">
+                                <area class="porte" target="" alt="" title="" href="#" coords="672,487,417,568" shape="rect">
                             </map>
                             <img src="../img/gareSac.jpg" usemap="#image-map" class="gare">
                         </div>
