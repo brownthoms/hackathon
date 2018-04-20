@@ -32,6 +32,7 @@ $(document).ready(function(){
         alert("Bonjour, veuillez sélectionner ce que vous souhaiter consommer.")
     });
 
+    // Click et stock du café.
     let cafetiere = 0;
     if ($(".cafetiere").click(function(){
         if (barman === 1) {
@@ -49,6 +50,7 @@ $(document).ready(function(){
         }
     }));
 
+    // Click et stock du kiwi.
     let kiwi = 0;
     if ($(".kiwi").click(function(){
         if (barman === 1) {
@@ -63,6 +65,13 @@ $(document).ready(function(){
             };
         }else{
             alert("Le barman vous regarde bizarrement.");
+        }
+    }));
+
+    // Si nous sommes restaurés, enclenche l'annonce du haut-parleur.
+    if ($(".barToHall").click(function(){
+        if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi")) {
+            alert("Une annonce sort du haut-parleur.")
         }
     }));
 
