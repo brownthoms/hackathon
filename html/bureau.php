@@ -20,7 +20,7 @@
                             </map>
                             <img src="../img/bureau.jpg" usemap="#image-map">
                             <div class="has-text-centered">
-                                <p>Ce n'est pas un simple bout de papier</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

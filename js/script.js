@@ -121,7 +121,7 @@ if ((window.localStorage.getItem("consommation1") != "Café") || (window.localSt
     $(".bureau").attr("href", "#");
     alert("Votre ventre vous fait mal !");
     };
-});
+
 
 if($("#code1").click(function(){
     window.localStorage.setItem("code1", "true");
@@ -133,5 +133,6 @@ if($("#code2").click(function(){
 
 if ((window.localStorage.getItem("code1") != "true") || (window.localStorage.getItem("code2") != "true")){
     $(".bureau").attr("href", "#");
-    };
+};
+
 });

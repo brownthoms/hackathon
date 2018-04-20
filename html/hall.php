@@ -22,7 +22,7 @@
                                 <area target="" alt="" title="fond" href="toilette.php" coords="132,271,201,349" shape="0">
                                 <area target="" alt="" title="haut gauche" href="" coords="356,221,396,256" shape="0">
                                 <area target="" alt="" title="tabac" href="" coords="329,287,391,319" shape="0">
-                                 <area target="" alt="" title="" href="code1.php" coords="10,387,38,432" shape="rect">
+                                 <area id="code1" target="" alt="" title="" href="code1.php" coords="10,387,38,432" shape="rect">
                             </map>
                             <img src="../img/hallCode1.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
