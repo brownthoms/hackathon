@@ -18,7 +18,7 @@
                                 <area class="cafetiere" target="" alt="" title="" href="#" coords="372,490,516,724" shape="rect">
                                 <area class="kiwi" alt="" title="" href="#" coords="1102,314,1157,337" shape="0">
                                 <area class="barman" alt="" title="" href="#" coords="890,419,976,509" shape="0">
-                                <area target="" alt="" title="Retour" href="hall.php" coords="323,762,842,798" shape="0">
+                                <area class="barToHall" target="" alt="" title="Retour" href="hall.php" coords="323,762,842,798" shape="0">
                             </map>
                             <img src="../img/bar.jpeg" usemap="#image-map" class="gare">
                         </div>
