@@ -1,8 +1,10 @@
 $(document).ready(function(){
     // window.localStorage.removeItem('objet1');
     // window.localStorage.removeItem('objet2');
+    // window.localStorage.removeItem('objet3');
     // window.localStorage.removeItem('consommation1');
     // window.localStorage.removeItem('consommation2');
+    // window.localStorage.removeItem('consommation3');
 
     // Extérieur gare.
     var sac = 0;
@@ -64,7 +66,27 @@ $(document).ready(function(){
             if(window.localStorage){
                 window.localStorage.setItem("consommation2", "Kiwi");
                 console.log(window.localStorage["consommation2"]);
-                if ((cafetiere === 1) && (kiwi === 1)){
+                if ((cafetiere === 1) && (kiwi === 1) && (fromage === 1)){
+                    alert("Vous voila un peu mieux !");
+                }
+            };
+        }else{
+            alert("Le barman vous regarde bizarrement.");
+        }
+    }));
+
+    // Click et stock du kiwi.
+    let fromage = 0;
+    if ($(".fromage").click(function(){
+        if (barman === 1) {
+            fromage = 1;
+            alert("Vous avez consommé du fromage, il vous en reste la moitié !")
+            if(window.localStorage){
+                window.localStorage.setItem("consommation3", "1/2 Fromage");
+                window.localStorage.setItem("objet3", "1/2 Fromage");
+                console.log(window.localStorage["consommation3"]);
+                console.log(window.localStorage["objet3"]);
+                if ((cafetiere === 1) && (kiwi === 1) && (fromage === 1)){
                     alert("Vous voila un peu mieux !");
                 }
             };
@@ -74,9 +96,9 @@ $(document).ready(function(){
     }));
 
     // Si nous sommes restaurés, enclenche l'annonce du haut-parleur. (Fonctionne pas encore)
-    if ((window.location === "http://localhost/hackathon/html/hall.php") && (window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi")){
-            alert("Une annonce sort du haut-parleur.");
+    if ($(".barToHall").click(function(){
+        if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
+            alert("Quelqu'un vous attend dehors...");
         };
-
-
+    })) ;
 });
