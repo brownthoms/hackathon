@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // Sert à vider le localStorage.
     // window.localStorage.removeItem('objet1');
     // window.localStorage.removeItem('objet2');
     // window.localStorage.removeItem('objet3');
@@ -101,5 +102,11 @@ $(document).ready(function(){
             alert("Quelqu'un vous attend dehors...");
             $(".barToHall").attr("href", "hallPolice.php");
         };
-    })) ;
+    }));
+
+    // Si on clique sur le policier...
+    if ($(".policier").click(function(){
+        alert("Vous êtes en état d'arrestation !" + "Game Over !");
+        $(".policier").attr("href", "../index.php");
+    }));
 });
