@@ -15,10 +15,9 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area target="" alt="" title="" href="coffre.php" coords="381,20,457,131" shape="rect">
-                                <area target="" alt="" title="" href="codeFinal.php" coords="425,351,448,344" shape="0">
-                            </map>
-                            <img src="../img/bureau.jpg" usemap="#image-map" class="gare">
+                                <area target="" alt="" title="" href="bureau.php" coords="281,681,736,767" shape="rect">
+                           </map>
+                            <img src="../img/codeFinal.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
                                 <p>Ce n'est pas un simple bout de papier</p>
                             </div>
