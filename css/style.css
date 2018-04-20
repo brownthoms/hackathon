@@ -1,6 +1,6 @@
 .title{
     font-size: 5em;
 }
-img{
-    border: 5px solid white;
-}
+body {position :relative ;}
+canvas {position : absolute ; width : 80% ; height : auto ; left : 10%;}
+div {position : absolute; width : 100%; left : 0px; top : 400px; }

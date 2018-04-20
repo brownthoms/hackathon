@@ -18,7 +18,7 @@
                                 <area class="sac" target="" alt="" title="" href="gare.php" coords="712,579,695,566" shape="rect">
                                 <area target="" alt="" title="" href="interieur.php" coords="672,487,417,568" shape="rect">
                             </map>
-                            <img src="../img/interieur.jpg" usemap="#image-map" class="gare">
+                            <img src="../img/gareSac.jpg" usemap="#image-map" class="gare">
                         </div>
                     </div>
                 </div>
