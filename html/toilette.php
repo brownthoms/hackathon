@@ -16,7 +16,7 @@
                         <div class="column">
                             <map name="image-map">
                                 <area target="" alt="" title="" href="hall.php" coords="237,466,579,512" shape="rect">
-                                <area target="" alt="" title="" href="code2.php" coords="468,183,499,199" shape="rect">
+                                <area id="code2" target="" alt="" title="" href="code2.php" coords="468,183,499,199" shape="rect">
                             </map>
                             <img src="../img/toiletteCode2.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
