@@ -97,12 +97,12 @@ $(document).ready(function(){
     }));
 
     // Si nous sommes restaurés, enclenche l'annonce du haut-parleur. (Fonctionne pas encore)
-    if ($(".barToHall").click(function(){
-        if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
-            // alert("Quelqu'un vous attend dehors...");
-            // $(".barToHall").attr("href", "hallPolice.php");
-        };
-    }));
+    // if ($(".barToHall").click(function(){
+    //     if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
+    //         alert("Quelqu'un vous attend dehors...");
+    //         $(".barToHall").attr("href", "hallPolice.php");
+    //     };
+    // }));
 
     // Si on clique sur le policier...
     if ($(".policier").click(function(){
@@ -110,3 +110,8 @@ $(document).ready(function(){
         $(".policier").attr("href", "../index.php");
     }));
 });
+
+//coffre
+if("#coffre").click(function(){
+    alert("Vous avez récupéré de l'argent et un billet de train pour Bourges !");
+})

@@ -16,11 +16,13 @@
                         <div class="column">
                             <map name="image-map">
                                 <area target="" alt="" title="" href="hall.php" coords="143,356,438,401" shape="rect">
-                                <area target="" alt="" title="" href="" coords="385,78,439,132" shape="0">
+                                <area id="coffre" target="" alt="" title="" href="" coords="385,78,439,132" shape="0">
                             </map>
                             <img src="../img/bureauFinal.jpg" usemap="#image-map" class="gare">
-                            <div class="has-text-centered">
-                                <p>Félicitacions</p>
+                            <div class="displayInput has-text-centered">
+                                <form class="" action="index.html" method="post">
+                                    (Click bas de page pour retour arrière!)
+                                </form>
                             </div>
                         </div>
                     </div>
