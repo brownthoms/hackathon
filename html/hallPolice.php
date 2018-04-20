@@ -22,6 +22,7 @@
                                 <area target="" alt="" title="fond" href="" coords="132,271,201,349" shape="0">
                                 <area target="" alt="" title="haut gauche" href="" coords="356,221,396,256" shape="0">
                                 <area target="" alt="" title="tabac" href="" coords="329,287,391,319" shape="0">
+                                <area target="" alt="" title="" href="exterieur.php" coords="255,509,758,548" shape="rect">
                             </map>
                             <img src="../img/police.jpg" usemap="#image-map" class="gare">
                             <div class="has-text-centered">
