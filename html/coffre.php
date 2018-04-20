@@ -20,7 +20,9 @@
                             </map>
                             <img src="../img/bureauFinal.jpg" usemap="#image-map" class="gare">
                             <div class="displayInput has-text-centered">
-                                <form class="" action="index.html" method="post">
+                                <form class=""  method="post">
+                                    <input class="code" type="text" name="" value="code secret">
+                                    <input class="validation" type="submit" name="" value="valider">
                                     (Click bas de page pour retour arrière!)
                                 </form>
                             </div>

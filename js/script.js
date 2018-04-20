@@ -49,7 +49,7 @@ $(document).ready(function(){
             if(window.localStorage){
                 window.localStorage.setItem("consommation1", "Café");
     	        console.log(window.localStorage["consommation1"]);
-                if ((cafetiere === 1) && (kiwi === 1)){
+                if ((cafetiere === 1) && (kiwi === 1) && (fromage === 1)){
                     alert("Vous voila un peu mieux !");
                 }
             };
@@ -97,21 +97,41 @@ $(document).ready(function(){
     }));
 
     // Si nous sommes restaurés, enclenche l'annonce du haut-parleur. (Fonctionne pas encore)
-    // if ($(".barToHall").click(function(){
-    //     if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
-    //         alert("Quelqu'un vous attend dehors...");
-    //         $(".barToHall").attr("href", "hallPolice.php");
-    //     };
-    // }));
+
+    if ($(".barToHall").click(function(){
+        if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
+            alert("Votre oeil tombe sur des signes qui ne trompent pas.");
+        };
+    }));
 
     // Si on clique sur le policier...
-    if ($(".policier").click(function(){
-        alert("Vous êtes en état d'arrestation !" + "Game Over !");
-        $(".policier").attr("href", "../index.php");
-    }));
-});
+//     if ($(".policier").click(function(){
+//         alert("Vous êtes en état d'arrestation !" + "Game Over !");
+//         $(".policier").attr("href", "../index.php");
+//     }));
+// });
 
 //coffre
-if("#coffre").click(function(){
+if ($("#coffre").click(function(){
     alert("Vous avez récupéré de l'argent et un billet de train pour Bourges !");
-})
+}));
+
+
+if ((window.localStorage.getItem("consommation1") != "Café") || (window.localStorage.getItem("consommation2") != "Kiwi") || (window.localStorage.getItem("consommation3") != "1/2 Fromage")){
+    $(".bureau").attr("href", "#");
+    alert("Votre ventre vous fait mal !");
+    };
+});
+
+if($("#code1").click(function(){
+    window.localStorage.setItem("code1", "true");
+}));
+
+if($("#code2").click(function(){
+    window.localStorage.setItem("code2", "true");
+}));
+
+if ((window.localStorage.getItem("code1") != "true") || (window.localStorage.getItem("code2") != "true")){
+    $(".bureau").attr("href", "#");
+    };
+});
