@@ -15,11 +15,15 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area class="sac" target="" alt="" title="" href="#" coords="712,579,695,566" shape="rect">
-                                <area class="porte" target="" alt="" title="" href="#" coords="672,487,417,568" shape="rect">
+                                <area class="sac" href="#" coords="712,579,695,566" shape="rect">
+                                <area class="porte" href="#" coords="672,487,417,568" shape="rect">
                             </map>
                             <img src="../img/gareSac.jpg" usemap="#image-map" class="gare">
                         </div>
+                    </div>
+                    <div class="has-text-centered">
+                        <p>L'effet de la drogue se dissipe... <br>
+                        Vous reprenez connaissance et cherchez désespérément vos affaires pour rentrer chez vous...</p>
                     </div>
                 </div>
             </div>
