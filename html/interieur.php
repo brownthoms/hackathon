@@ -15,10 +15,11 @@
                     <div class="columns">
                         <div class="column">
                             <map name="image-map">
-                                <area class="sac" target="" alt="" title="" href="gare.php" coords="712,579,695,566" shape="rect">
-                                <area target="" alt="" title="" href="interieur.php" coords="672,487,417,568" shape="rect">
+                                <area class="cafetiere" target="" alt="" title="" href="#" coords="372,490,516,724" shape="rect">
+                                <area class="kiwi" alt="" title="" href="#" coords="1102,314,1157,337" shape="0">
+                                <area class="barman" alt="" title="" href="#" coords="890,419,976,509" shape="0">
                             </map>
-                            <img src="../img/interieur.jpg" usemap="#image-map" class="gare">
+                            <img src="../img/bar.jpeg" usemap="#image-map" class="gare">
                         </div>
                     </div>
                 </div>
