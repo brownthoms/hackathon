@@ -99,6 +99,7 @@ $(document).ready(function(){
     if ($(".barToHall").click(function(){
         if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi") && (window.localStorage.getItem("consommation3") === "1/2 Fromage")){
             alert("Quelqu'un vous attend dehors...");
+            $(".barToHall").attr("href", "hallPolice.php");
         };
     })) ;
 });
