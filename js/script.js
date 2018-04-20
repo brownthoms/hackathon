@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    // window.localStorage.removeItem('objet1');
+    // window.localStorage.removeItem('objet2');
+    // window.localStorage.removeItem('consommation1');
+    // window.localStorage.removeItem('consommation2');
 
     // Extérieur gare.
     var sac = 0;
@@ -6,6 +10,7 @@ $(document).ready(function(){
     if ($(".sac").click(function(){
         sac = 1;
         console.log(sac); // Doit être égal à 1.
+        alert("Vous récupérez votre sac");
 
         if(window.localStorage){
             window.localStorage.setItem("objet1", "Hache");
@@ -68,11 +73,10 @@ $(document).ready(function(){
         }
     }));
 
-    // Si nous sommes restaurés, enclenche l'annonce du haut-parleur.
-    if ($(".barToHall").click(function(){
-        if ((window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi")) {
-            alert("Une annonce sort du haut-parleur.")
-        }
-    }));
+    // Si nous sommes restaurés, enclenche l'annonce du haut-parleur. (Fonctionne pas encore)
+    if ((window.location === "http://localhost/hackathon/html/hall.php") && (window.localStorage.getItem("consommation1") === "Café") && (window.localStorage.getItem("consommation2") === "Kiwi")){
+            alert("Une annonce sort du haut-parleur.");
+        };
+
 
 });
